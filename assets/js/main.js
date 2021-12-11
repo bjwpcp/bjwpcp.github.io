@@ -35,7 +35,7 @@
 				$wrapper = $('#wrapper');
 
 				// Hack: iOS vh bug.
-					if (browser.os == 'ios&ipados')
+					if (browser.os == 'ios & ipados')
 						$wrapper
 							.css('margin-top', -25)
 							.css('padding-bottom', 25);
